@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+ln2 = 0.69314718055994530941723212145818
+sqrt2 = 1.4142135623730950488016887242097
+log2 = 0.30102999566398119521373889472449
+
 # Passo 2: Função que calcula a parte inteira e a parte fracionária de x
 def calcula_e_f(x):
     e = int(np.floor(np.log2(x)))
